@@ -14,7 +14,7 @@ public class ClientEntryPoint implements ClientModInitializer {
 
     private static final KeyBinding totalToggleBinding = KeyBindingHelper.registerKeyBinding(new KeyBinding(
             // The translation key of the keybinding's name
-                "key.timber.totalToggle",
+            "key.timber.totalToggle",
             // The type of the keybinding, KEYSYM for keyboard, MOUSE for mouse.
             InputUtil.Type.KEYSYM,
             // The keycode of the key

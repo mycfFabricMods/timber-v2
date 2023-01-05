@@ -3,7 +3,6 @@ package ctimber.mycf.client;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking;
 import net.minecraft.item.AxeItem;
-import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import timber.mycf.ToggleNotification;
 import timber.mycf.Toggleable;

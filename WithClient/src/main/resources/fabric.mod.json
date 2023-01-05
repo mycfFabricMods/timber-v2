@@ -19,7 +19,7 @@
     ]
   },
   "mixins": [
-    "timberwithclient.mixins.json"
+    "ctimber.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.14.12",

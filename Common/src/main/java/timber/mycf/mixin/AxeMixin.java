@@ -31,9 +31,6 @@ abstract public class AxeMixin extends MiningToolItem {
 
         boolean mode = ((Toggleable)(Object) stack).getToggleMode$mycftimber();
 
-        // checks if the player wants to use the timber mode, if not it will not run, nonetheless of the axe's mode
-//        boolean canSwap = ((Toggleable) miner).getToggleMode$mycftimber();
-
         // the damage done to the axe
         int damage = 1;
 

@@ -13,8 +13,6 @@ import timber.mycf.TimberModes;
 import timber.mycf.ToggleNotification;
 import timber.mycf.Toggleable;
 
-import java.util.function.Consumer;
-
 @Mixin(PlayerEntity.class)
 public abstract class PlayerEntityMixin extends LivingEntity implements Toggleable, ToggleNotification {
     private boolean canToggle = true;
