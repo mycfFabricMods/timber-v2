@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "stimber",
+  "version": "${version}",
+  "name": "Timber",
+  "description": "",
+  "authors": [
+    "0xmycf"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "stimber.mycf.TimberServer"
+    ]
+  },
+  "mixins": [
+    "stimber.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "fabric": "*",
+    "minecraft": "1.19.3",
+    "timber": "*"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "item.timber.axe.nevermodeon": "Du kannst den Holzfällmodus der Axt wieder frei ändern",
+  "item.timber.axe.nevermodeoff": "Deine Äxte sind im zuletzt gesetztem Modus gesperrt.",
+  "item.timber.axe.chopone": "Einblockmodus!",
+  "item.timber.axe.chopall": "Mehrblockmodus!",
+  "key.timber.basicToggle": "Timber Modus Axt Toggle",
+  "key.timber.totalToggle": "Timber Modus Spieler:in Toggle",
+  "category.timber": "Timber Mod"
+}

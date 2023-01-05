@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "timber",
+  "version": "${version}",
+  "name": "Timber",
+  "description": "",
+  "authors": [
+    "0xmycf"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "timber.mycf.Timber"
+    ]
+  },
+  "mixins": [
+    "timber.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.12",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}

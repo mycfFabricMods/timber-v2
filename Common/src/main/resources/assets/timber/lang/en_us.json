@@ -1,0 +1,9 @@
+{
+  "item.timber.axe.nevermodeon": "You can freely change the timber mode of the axe again.",
+  "item.timber.axe.nevermodeoff": "Your axes are locked into the last set mode.",
+  "item.timber.axe.chopone": "Chop one!",
+  "item.timber.axe.chopall": "Chop all!",
+  "key.timber.basicToggle": "Timber Mode Axe Toggle",
+  "key.timber.totalToggle": "Timber Mode Player Toggle",
+  "category.timber": "Timber Mod"
+}
