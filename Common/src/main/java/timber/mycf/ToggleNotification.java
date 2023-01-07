@@ -22,10 +22,8 @@ public interface ToggleNotification extends Toggleable {
      * Default implementation for the stack toggle
      */
     default void toggleAndNotify$mycftimber(PlayerEntity player) {
-        final var newToggle = this.toggleMode$mycftimber();
-        if (newToggle)
-            player.sendMessage(Text.translatable("item.timber.axe.chopall"), true);
-        else
-            player.sendMessage(Text.translatable("item.timber.axe.chopone"), true);
+        this.toggleAndNotify$mycftimber(player,
+                "item.timber.axe.chopall",
+                "item.timber.axe.chopone");
     }
 }

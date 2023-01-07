@@ -17,6 +17,7 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.world.World;
 import org.spongepowered.asm.mixin.Mixin;
+import timber.mycf.Timber;
 import timber.mycf.Toggleable;
 
 
@@ -29,12 +30,13 @@ abstract public class AxeMixin extends MiningToolItem {
     @Override
     public boolean postMine(ItemStack stack, World world, BlockState state, BlockPos pos, LivingEntity miner) {
 
-        boolean mode = ((Toggleable)(Object) stack).getToggleMode$mycftimber();
+        final boolean mode = ((Toggleable)(Object) stack).getToggleMode$mycftimber();
+        final boolean isEnabled = world.getGameRules().getBoolean(Timber.ENABLE_TIMBER);
 
         // the damage done to the axe
         int damage = 1;
 
-        if (!world.isClient() && mode && state.isIn(BlockTags.LOGS)) {
+        if (!world.isClient() && mode && isEnabled && state.isIn(BlockTags.LOGS)) {
             // the damage the axe can take until it breaks
             final int trueDamage = Math.abs(stack.getMaxDamage() - stack.getDamage());
 

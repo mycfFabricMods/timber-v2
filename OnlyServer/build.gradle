@@ -2,3 +2,5 @@ dependencies {
     include project(":Common")
     implementation project(":Common")
 }
+
+archivesBaseName = "stimber-${project.mod_version}+${project.minecraft_version}"

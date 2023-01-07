@@ -5,5 +5,6 @@
   "item.timber.axe.chopall": "Mehrblockmodus!",
   "key.timber.basicToggle": "Timber Modus Axt Toggle",
   "key.timber.totalToggle": "Timber Modus Spieler:in Toggle",
-  "category.timber": "Timber Mod"
+  "category.timber": "Timber Mod",
+  "gamerule.enableTimber": "Is the Timber mod enabled"
 }
