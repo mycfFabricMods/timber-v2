@@ -60,7 +60,9 @@ abstract public class AxeMixin extends MiningToolItem {
              }
         }
 
-        stack.damage(damage, miner, (PlayerEntity) -> PlayerEntity.sendEquipmentBreakStatus(EquipmentSlot.MAINHAND));
+        if (state.getHardness(world, pos) != 0.0F)
+            stack.damage(damage, miner, (PlayerEntity) -> PlayerEntity.sendEquipmentBreakStatus(EquipmentSlot.MAINHAND));
+
         return true;
     }
 }
